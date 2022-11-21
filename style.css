@@ -1,0 +1,249 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.navbar {
+    background-color: darkturquoise;
+    color: #fff;
+    height: 60px;
+    position: fixed;
+    list-style-type: none;
+}
+
+    
+  
+
+
+   @media all and (max-width: 500px) {
+    body {
+      color: black;
+    }
+   }
+   @media print  {
+    body {
+      color: black;
+    }
+   /* @media screen and (max-width:500px) and (min-width:500px) {
+    body {
+      background-color : black;
+    } */
+   }
+   @media (max-width: 500px) {
+    body {
+      color: blue;
+    }
+   }
+   @media (orientation: landscape) and (max-width: 500px) {
+    .header-content{
+      color: brown;
+    }
+   }
+   @media (orientation: portrait) {
+    .aba{
+      color: brown;
+    }
+   }
+
+   /* body {
+    color: blue;
+   } */
+
+
+.logo{
+    font-weight: bold;
+    font-size: xx-large;
+    width: 20%;
+}
+
+.logo img{
+    width: 50px;
+    /* margin-top: 5px; */
+    margin-bottom: 15px;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+}
+
+.navbar ul{
+    display: flex;
+    /* list-style: none; */
+}
+
+.navbar ul li{
+    margin-right: 20px;
+    
+}
+
+ .navbar li{
+    list-style-type: none !important;
+    display: inline-flex !important;
+    list-style: none !important;
+    text-decoration: none !important;
+    
+
+ }
+ .navbar ul li a{
+  color: #000;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: #000;
+    border-bottom: 0.5px solid #555;
+}
+
+
+  /* End of nav style */
+
+  /* start of header style */
+
+  .header img{
+    max-width: 400px;
+  }
+
+  .header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .header h1{
+    color: #000;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.3;
+  }
+
+  .header-content{
+    width: 75%;
+  }
+
+  .Cotact-btn{
+    background-color: darkturquoise !important;
+    color: rgb(0, 0, 0) !important;
+    
+  }
+
+  .Cotact-btn:hover{
+    background-color: darkturquoise !important;
+    color: #000 !important;
+    font-weight: bold;
+    border: 1px solid #000 !important;
+  }
+
+   /* end of header style */
+
+   /* begining of content */
+   .Boxes{
+    background-color: darkturquoise;
+    color: #fff;
+    margin-top: 25px;
+    padding: 25px 25px;
+   }
+
+   .Boxes .container{
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .Box{
+    background-color: rgb(29, 124, 126);
+    padding: 15px 20px ;
+    margin: 20px 10px;
+    border-radius: 5px;
+    box-shadow: #000;
+   }
+
+    /* End of ::content */
+
+    /* start footer   */
+   .footer .container{
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+   }
+
+   .container pre{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+     margin-top: 25px;
+
+   }
+
+   .footer{ 
+    background-color: #000;
+    color: #fff;
+   }
+
+   .footer-box ul li{
+    list-style: none;
+    list-style-type: none;
+   }
+
+     /* footer */
+   .footer{ 
+    background-color: #000;
+    color: #fff;
+   }
+
+   .footer-boz ul li{
+    list-style: none;
+    list-style-type: none;
+   }
+
+   .flex{
+    display: none;
+   }
+
+   .about{
+    background-color:rgb(142, 168, 194);
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+    .aba{
+      text-align: center;
+      color: #000;
+      margin-top: 20px;
+    }
+
+    .tr,td,th{
+      border: 1px solid #fff;
+      justify-content: center;
+      color: #fff;
+  }
+     table,tr,td,th{
+      background-color:#000;
+      
+     }
+
+    .ahamad{
+      margin-bottom: 500px;
+      text-align: center;
+      margin-left: 0px;
+    }
+  .sani{
+    text-align: center;
+    text-decoration: solid;
+    margin-right: 100px;
+  }
